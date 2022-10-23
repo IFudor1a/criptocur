@@ -1,0 +1,81 @@
+.Community {
+  display: flex;
+  padding: 150px 250px;
+  .left {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 20px;
+    .title {
+      font-size: 56px;
+      line-height: 64px;
+      font-family: Mulish,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+      font-weight: 700;
+    }
+    .description {
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 400;
+      font-family: Mulish,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+      color: #728a96;
+      z-index: 6;
+    }
+    .button {
+
+      button {
+        padding: 16px 32px;
+        border-radius: 40px;
+        color:  #fff;
+        background-color: #08c;
+        cursor: pointer;
+        border: none;
+      }
+    }
+  }
+  .right {
+    display: flex;
+    position: relative;
+    width: 50%;
+    .img_container {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .img_container2 {
+display: inline-block;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: -240px;
+      top: 150px;
+      transform: rotate(15deg);
+      z-index: 5;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .img_container3 {
+      width: 85%;
+      overflow: hidden;
+      height: 100%;
+      position: absolute;
+      left: 270px;
+      top: 180px;
+      transform: rotate(20deg);
+      z-index: 0;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

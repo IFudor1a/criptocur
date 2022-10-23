@@ -1,0 +1,118 @@
+.Body {
+  display: flex;
+  flex-direction: column;
+  padding: 140px 250px;
+  gap: 150px;
+  .Massive {
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+       font-size: 56px;
+      text-align: center;
+      line-height: 64px;
+      font-family: Mulish,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+      font-weight: 700;
+
+    }
+    .postTitle {
+      text-align: center;
+      font-size: 56px;
+      line-height: 64px;
+      font-family: Mulish,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+      font-weight: 700;
+
+    }
+    .description {
+      width: 39%;
+      margin-top: 16px;
+      text-align: center;
+      padding-bottom: 64px;
+      color: #728a96;
+      font-family: Mulish,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 400;
+    }
+
+    .Icons {
+      display: flex;
+      gap: 16px;
+      .icon {
+        display: flex;
+        width: 304px;
+        flex-direction: column;
+        padding: 28px 24px;
+        background-color: #f7f9fb;
+        border-radius: 24px;
+        .title {
+          text-align: left;
+          font-size: 20px;
+          line-height: 20px;
+          font-weight: 400;
+        }
+        .desc {
+          font-family: Mulish,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 56px;
+        }
+      }
+
+    }
+  }
+  .Wallet {
+    display: flex;
+    max-width: 1360px;
+    padding: 72px 100px;
+    border-radius: 64px;
+    gap: 100px;
+    background: linear-gradient(180deg,#f7f9fb,rgba(238,242,245,0.8) 116.16%);
+    .Left {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+        .title {
+          font-size: 56px;
+          line-height: 64px;
+          font-family: Mulish,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+          font-weight: 700;
+        }
+        }
+       .description {
+         font-size: 20px;
+         line-height: 30px;
+         font-weight: 400;
+         font-family: Mulish,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+         color: #728a96;
+       }
+      .button {
+
+        button {
+          padding: 16px 32px;
+          border-radius: 40px;
+          color:  #fff;
+          background-color: #08c;
+          cursor: pointer;
+          border: none;
+        }
+      }
+
+    .Right{
+      .img_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+      }
+     img {
+
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+     }
+    }
+  }
+
+}

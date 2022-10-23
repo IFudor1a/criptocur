@@ -1,0 +1,71 @@
+.Intro {
+  display: flex;
+  background-color: #232328;
+  padding: 0 250px;
+  height: 653px;
+
+  .text {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    .PreTitle {
+      color: #FFFFFF;
+      font-size: 72px;
+      font-weight: 700;
+    }
+    .Title {
+      background: -webkit-linear-gradient(89.92deg,#06a1ef 28.51%,#69cdff 85.79%);
+      -webkit-background-clip: text;
+      font-size: 72px;
+      font-weight: 700;
+      -webkit-text-fill-color: transparent;
+    }
+    .Description {
+      margin-top: 5px;
+      margin-bottom: 20px;
+      color: #728a96;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+    }
+    .Links {
+      display: flex;
+      gap: 20px;
+      .Community {
+        padding: 16px 32px;
+        color: #FFFFFF;
+        background-color: #06a1ef;
+        cursor: pointer;
+        border-radius: 40px;
+        border: none;
+        font-weight: 700;
+        font-size: 16px;
+      }
+      .Github {
+        display: flex;
+        gap: 5px;
+        border-radius: 40px;
+        border: none;
+        padding: 16px 32px;
+        background-color: #353538;
+        font-size: 16px;
+        font-weight: 700;
+        color: #FFFFFF;
+      }
+    }
+  }
+  .Logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    .blur {
+      position: absolute;
+      width: 690px;
+      height: 690px;
+      background: radial-gradient(circle,rgba(60,187,251,.3) 0,rgba(60,187,251,.221) 13.11%,rgba(60,187,251,.162) 23.46%,rgba(60,187,251,.115) 32.43%,rgba(60,187,251,.083) 38.985%,rgba(60,187,251,.058) 44.85%,rgba(60,187,251,.038) 50.37%,rgba(60,187,251,.023) 55.338%,rgba(60,187,251,.013) 59.409%,rgba(60,187,251,.006) 62.79%,rgba(60,187,251,.002) 65.688%,rgba(60,187,251,.001) 67.758%,rgba(60,187,251,0) 69%);
+    }
+  }
+}
